@@ -1,0 +1,37 @@
+{
+  "name": "arabicc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "native-base": "^2.12.1",
+    "react": "16.6.3",
+    "react-native": "0.58.0",
+    "react-native-material-menu": "^0.6.3",
+    "react-native-sound": "^0.10.12",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "^5.12.1",
+    "vue-native-core": "^0.0.8",
+    "vue-native-helper": "^0.0.11",
+    "vue-native-router": "^0.0.1-alpha.3",
+    "vue-native-scripts": "^0.0.16"
+  },
+  "devDependencies": {
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

@@ -1,0 +1,126 @@
+[
+	{
+		page: '1',
+		sound: 's01.mp3',
+		title: 'Perkenalan',
+		script: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ ، يَا أُسْتَاذُ',
+				i: 'Waalaikumussalam Pak Guru'
+			},
+			{
+				a: 'هَذَا أَبُوْ بَكْرٍ . هُوَ مَالِيْزِيٌّ',
+				i: 'Ini Abu Bakar. Dia orang Malaysia'
+			},
+			{
+				a: 'يَا أَبَا بَكْرٍ . هَذَا بَاسِمٌ هُوَ أَنْدُوْنِيْسِيٌّ',
+				i: 'Abu Bakar. Ini Basim, dia orang Indonesia'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Salam kenal'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا أَبَا بَكْرٍ',
+				i: 'Salam kenal juga Abu Bakar'
+			}
+		],
+	},
+	{
+		page: '2',
+		sound: 's02.mp3',
+		title: 'Hobi',
+		script: [
+			{
+				a: 'مَا هِوَايَتُكَ يَا زُهَيْرُ ؟',
+				i: 'Zuhair, apa hobimu?'
+			},
+			{
+				a: 'هِوَايَتِي الصَّحَافَةُ وَجَـمْعُ الطَّوَابِعِ.وَأَنْتِ ؟',
+				i: 'Hobiku jurnalistik dan filateli. Dan kamu?'
+			},
+			{
+				a: 'هِوَايَتِي الرَّسْمُ وَالتَّدْبِيْرُ الـمَنْزِلِيُّ. أَنَا مُشْتَرِكَةٌ فِي جَـمَاعَةِ التَّدْبِيْرِ الـمَنْزِلِيِّ',
+				i: 'Hobiku melukis dan tata boga. Aku bergabung dengan grup tata boga'
+			},
+			{
+				a: 'وَأَنَا مُشْتَرِكٌ فِي جَـمَاعَةِ الصَّحَافَةِ',
+				i: 'Aku (juga) bergabung dengan grup jurnalis'
+			},
+			{
+				a: 'هَلْ سَـمِعْتَ عَنْ مَعْرَضِ الـمَدْرَسَةِ ؟',
+				i: 'Apakah kamu dengar tentang pameran sekolah?'
+			},
+			{
+				a: 'نَعَمْ ، وَعِمِلْنَا صَحِيْفَةً جَـمِيْلَةً',
+				i: 'Iya, kami telah membuat koran yang bagus'
+			},
+			{
+				a: 'وَنَـحْنُ عَمِلْنَا حَلْوَى لَذِيْذَةً',
+				i: 'Dan kami telah membuat manisan yang enak'
+			}
+		],
+	},
+	{
+		page: '3',
+		sound: 's03.mp3',
+		title: 'Sekolah',
+		script: [
+			{
+				a: 'هَلْ أَنْتَ مُدَرِّسٌ ؟',
+				i: 'Apakah kamu guru?'
+			},
+			{
+				a: 'لَا ، أَنَا طَالِبٌ',
+				i: 'Bukan, aku pelajar'
+			},
+			{
+				a: 'أَيْنَ تَدْرُسُ ؟',
+				i: 'Dimana kamu sekolah?'
+			},
+			{
+				a: 'أَدْرُسُ فِي الـمَدْرَسَةِ الثَّانَوِيَّةِ',
+				i: 'Aku belajar di SMA'
+			},
+			{
+				a: 'مَاذَا تَدْرُسُ ؟',
+				i: 'Apa yang kamu pelajari?'
+			},
+			{
+				a: 'أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ',
+				i: 'Aku belajar bahasa Arab'
+			},
+			{
+				a: 'هَلْ تَتَحَدَّثُ العَرَبِيَّةَ جَيِّدًا ؟',
+				i: 'Apakah kamu berbicara bahasa Arab dengan baik?'
+			},
+			{
+				a: 'نَعَمْ ، أَتَـحَدَّثُ العَرَبِيَّةَ جَيِّدًا',
+				i: 'Iya, aku berbicara bahasa Arab dengan baik'
+			},
+			{
+				a: 'لِـمَاذَا تَدْرُسُ اللُّغَةَ العَرَبِيَّةَ ؟',
+				i: 'Mengapa kamu mempelajari bahasa Arab?'
+			},
+			{
+				a: 'أَدْرُسُ العَرَبِيَّةَ لِأَفْهَمَ القُرْآنَ',
+				i: 'Aku mempelajari bahasa Arab supaya faham Al-Quran'
+			}
+		],
+	},
+	{
+		page: '4',
+		sound: 's03.mp3',
+		title: 'Pertemuan',
+		script: [
+			{
+				a: 'bahasa arabnya',
+				i: 'indonesia'
+			},
+		],
+	},
+]
