@@ -1,126 +1,1596 @@
 [
 	{
 		page: '1',
-		sound: 's01.mp3',
-		title: 'Perkenalan',
-		script: [
+		sound: 's01.ogg',
+		title: 'Perkenalan I',
+		aside: [
 			{
 				a: 'السَّلَامُ عَلَيْكُمْ',
 				i: 'Assalamualaikum'
 			},
 			{
-				a: 'وَعَلَيْكُمُ السَّلَامُ ، يَا أُسْتَاذُ',
-				i: 'Waalaikumussalam Pak Guru'
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
 			},
 			{
-				a: 'هَذَا أَبُوْ بَكْرٍ . هُوَ مَالِيْزِيٌّ',
-				i: 'Ini Abu Bakar. Dia orang Malaysia'
+				a: 'اِسْمِي خَالِدٌ، مَا اسْمُكَ؟',
+				i: 'Nama saya Khalid, siapa namamu?'
 			},
 			{
-				a: 'يَا أَبَا بَكْرٍ . هَذَا بَاسِمٌ هُوَ أَنْدُوْنِيْسِيٌّ',
-				i: 'Abu Bakar. Ini Basim, dia orang Indonesia'
+				a: 'اِسْمِي خَلِيْلٌ',
+				i: 'Nama saya khalil'
 			},
 			{
-				a: 'أَهْلًا وَسَهْلًا',
-				i: 'Salam kenal'
+				a: 'كَيْفَ حَالُكَ؟',
+				i: 'Bagaimana kabarmu?'
 			},
 			{
-				a: 'أَهْلًا وَسَهْلًا أَبَا بَكْرٍ',
-				i: 'Salam kenal juga Abu Bakar'
+				a: 'بِخَيْرٍ. وَالحَمْدُ للهِ. وَكَيْفَ حَالُكَ أَنْتَ؟',
+				i: 'Alhamdulillah baik. Bagaimana denganmu?'
+			},
+			{
+				a: 'بِخَيْرٍ. وَالحَمْدُ للهِ',
+				i: 'Baik, Alhamdulillah'
 			}
 		],
+		bside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
+			},
+			{
+				a: 'اِسْمِي خَوْلَةُ، مَا اسْمُكَ؟',
+				i: 'Nama saya Khaulah, siapa namamu?'
+			},
+			{
+				a: 'اِسْمِي خَدِيْجَةُ',
+				i: 'Nama saya Khadijah'
+			},
+			{
+				a: 'كَيْفَ حَالُكَ؟',
+				i: 'Bagaimana kabarmu?'
+			},
+			{
+				a: 'بِخَيْرٍ. وَالحَمْدُ للهِ. وَكَيْفَ حَالُكَ أَنْتَ؟',
+				i: 'Alhamdulillah baik. Bagaimana denganmu?'
+			},
+			{
+				a: 'بِخَيْرٍ. وَالحَمْدُ للهِ',
+				i: 'Baik, Alhamdulillah'
+			}
+		]
 	},
 	{
 		page: '2',
-		sound: 's02.mp3',
-		title: 'Hobi',
-		script: [
+		sound: 's03.ogg',
+		title: 'Perkenalan II',
+		aside: [
 			{
-				a: 'مَا هِوَايَتُكَ يَا زُهَيْرُ ؟',
-				i: 'Zuhair, apa hobimu?'
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
 			},
 			{
-				a: 'هِوَايَتِي الصَّحَافَةُ وَجَـمْعُ الطَّوَابِعِ.وَأَنْتِ ؟',
-				i: 'Hobiku jurnalistik dan filateli. Dan kamu?'
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
 			},
 			{
-				a: 'هِوَايَتِي الرَّسْمُ وَالتَّدْبِيْرُ الـمَنْزِلِيُّ. أَنَا مُشْتَرِكَةٌ فِي جَـمَاعَةِ التَّدْبِيْرِ الـمَنْزِلِيِّ',
-				i: 'Hobiku melukis dan tata boga. Aku bergabung dengan grup tata boga'
+				a: 'مِنْ أَيْنَ أَنْتِ؟',
+				i: 'Darimana asalmu?'
 			},
 			{
-				a: 'وَأَنَا مُشْتَرِكٌ فِي جَـمَاعَةِ الصَّحَافَةِ',
-				i: 'Aku (juga) bergabung dengan grup jurnalis'
+				a: 'أَنَا مِنْ بَاكِسْتَان',
+				i: 'Aku dari Pakistan'
 			},
 			{
-				a: 'هَلْ سَـمِعْتَ عَنْ مَعْرَضِ الـمَدْرَسَةِ ؟',
-				i: 'Apakah kamu dengar tentang pameran sekolah?'
+				a: 'هَلْ أَنْتَ بَاكِسْتَانِيٌّ؟',
+				i: 'Apakah kamu orang Pakistan?'
 			},
 			{
-				a: 'نَعَمْ ، وَعِمِلْنَا صَحِيْفَةً جَـمِيْلَةً',
-				i: 'Iya, kami telah membuat koran yang bagus'
+				a: 'نَعَمْ، أَنَا بَاكِسْتَانِيٌّ. وَمَا جِنْسِيَّتُكَ أَنْتَ؟',
+				i: 'Iya, aku orang Pakistan. Apa kewarganegaraanmu?'
 			},
 			{
-				a: 'وَنَـحْنُ عَمِلْنَا حَلْوَى لَذِيْذَةً',
-				i: 'Dan kami telah membuat manisan yang enak'
+				a: 'أَنَا تُرْكِيٌّ، أَنَا مِنْ تُرْكِيَا',
+				i: 'Aku orang Turki, Aku berasal dari Turki'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Salam Kenal!'
 			}
 		],
+		bside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
+			},
+			{
+				a: 'مِنْ أَيْنَ أَنْتَ؟',
+				i: 'Darimana asalmu?'
+			},
+			{
+				a: 'أَنَا مِنْ مِصْرَ',
+				i: 'Aku dari Mesir'
+			},
+			{
+				a: 'هَلْ أَنْتِ مِصْرِيَّةٌ؟',
+				i: 'Apakah kamu orang Mesir?'
+			},
+			{
+				a: 'نَعَمْ، أَنَا مِصْرِيَّةٌ. وَمَا جِنْسِيَّتُكِ أَنْتِ؟',
+				i: 'Iya, aku orang Mesir. Apa kewarganegaraanmu?'
+			},
+			{
+				a: 'أَنَا سُوْرِيَّةٌ، أَنَا مِنْ سُوْرِيَا',
+				i: 'Aku orang Suriah, Aku berasal dari Suriah'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Salam Kenal!'
+			}
+		]
 	},
 	{
 		page: '3',
-		sound: 's03.mp3',
-		title: 'Sekolah',
-		script: [
+		sound: 's05.ogg',
+		title: 'Perkenalan III',
+		aside: [
 			{
-				a: 'هَلْ أَنْتَ مُدَرِّسٌ ؟',
-				i: 'Apakah kamu guru?'
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
 			},
 			{
-				a: 'لَا ، أَنَا طَالِبٌ',
-				i: 'Bukan, aku pelajar'
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
 			},
 			{
-				a: 'أَيْنَ تَدْرُسُ ؟',
-				i: 'Dimana kamu sekolah?'
+				a: 'هَذَا أَخِي، هُوَ مُدَرِّسٌ',
+				i: 'Ini saudara laki-lakiku, dia seorang guru'
 			},
 			{
-				a: 'أَدْرُسُ فِي الـمَدْرَسَةِ الثَّانَوِيَّةِ',
-				i: 'Aku belajar di SMA'
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Senang bertemu denganmu'
 			},
 			{
-				a: 'مَاذَا تَدْرُسُ ؟',
-				i: 'Apa yang kamu pelajari?'
+				a: 'هَذَا صَدِيْقِي، هُوَ مُهَنْدِسٌ',
+				i: 'Ini temanku, dia seorang arsitek'
 			},
 			{
-				a: 'أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ',
-				i: 'Aku belajar bahasa Arab'
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Senang bertemu denganmu'
 			},
 			{
-				a: 'هَلْ تَتَحَدَّثُ العَرَبِيَّةَ جَيِّدًا ؟',
-				i: 'Apakah kamu berbicara bahasa Arab dengan baik?'
+				a: 'مَعَ السَّلَامَةِ',
+				i: 'Selamat tinggal'
 			},
 			{
-				a: 'نَعَمْ ، أَتَـحَدَّثُ العَرَبِيَّةَ جَيِّدًا',
-				i: 'Iya, aku berbicara bahasa Arab dengan baik'
+				a: 'مَعَ السَّلَامَةِ',
+				i: 'Selamat tinggal'
+			}
+		],
+		bside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
 			},
 			{
-				a: 'لِـمَاذَا تَدْرُسُ اللُّغَةَ العَرَبِيَّةَ ؟',
-				i: 'Mengapa kamu mempelajari bahasa Arab?'
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
 			},
 			{
-				a: 'أَدْرُسُ العَرَبِيَّةَ لِأَفْهَمَ القُرْآنَ',
-				i: 'Aku mempelajari bahasa Arab supaya faham Al-Quran'
+				a: 'هَذِهِ أُخْتِي، هِيَ طَبِيْبَةٌ',
+				i: 'Ini saudariku, dia seorang dokter'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Senang bertemu denganmu'
+			},
+			{
+				a: 'هَذِهِ صَدِيْقَتِي، هِيَ طَالِبَةٌ',
+				i: 'Ini teman perempuanku, dia seorang murid'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Senang bertemu denganmu'
+			},
+			{
+				a: 'مَعَ السَّلَامَةِ',
+				i: 'Selamat tinggal'
+			},
+			{
+				a: 'مَعَ السَّلَامَةِ',
+				i: 'Selamat tinggal'
+			}
+		]
+	},
+	{
+		page: '4',
+		sound: 's07.ogg',
+		title: 'Keluarga I',
+		aside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
+			},
+			{
+				a: 'هَذِهِ صُوْرَةُ أُسْرَتِي',
+				i: 'Ini adalah foto keluargaku'
+			},
+			{
+				a: 'مَا شَاءَ اللهُ! مَنْ هَذَا؟',
+				i: 'Masya Allah!! Siapa ini?'
+			},
+			{
+				a: 'هَذَا وَالِدِي عَدْنَانُ وَهُوَ مُهَنْدِسٌ',
+				i: 'Ini ayahku Adnan, beliau seorang arsitek'
+			},
+			{
+				a: 'وَمَنْ هَذِهِ؟',
+				i: 'Dan siapa ini?'
+			},
+			{
+				a: 'هَذِهِ وَالِدَتِي سَعِيْدَةٌ وَهِيَ طَبِيْبَةٌ',
+				i: "Ini ibuku Sa'idah, beliau seorang dokter"
+			},
+			{
+				a: 'وَمَنْ هَذَا؟',
+				i: 'Kemudian siapa ini?'
+			},
+			{
+				a: 'هَذَا أَخِي عِيْسَى وَهُوَ طَالِبٌ',
+				i: 'Ini saudaraku Isa, dan dia seorang murid'
+			},
+			{
+				a: 'وَمَنْ هَذِهِ؟',
+				i: 'Dan ini siapa?'
+			},
+			{
+				a: 'هَذِهِ أُخْتِي عَبْلَةُ وَهِيَ مُعَلِّمَةٌ. وَهَذَا جَدِّي. وَهَذِه جَدَّتِي',
+				i: 'Ini saudariku Ablah, dia seorang guru. Dan ini kakekku, ini nenekku'
+			},
+			{
+				a: 'مَا شَاءَ اللهُ!',
+				i: 'Masya Allah'
 			}
 		],
 	},
 	{
-		page: '4',
-		sound: 's03.mp3',
-		title: 'Pertemuan',
-		script: [
+		page: '5',
+		sound: 's08.ogg',
+		title: 'Keluarga II',
+		aside: [
 			{
-				a: 'bahasa arabnya',
-				i: 'indonesia'
+				a: 'هَلْ هَذِهِ شَجَرَةٌ؟',
+				i: 'Apakah ini pohon (silsilah keluarga)?'
 			},
+			{
+				a: 'نَعَمْ، هَذِهِ شَجَرَةٌ. هَذِهِ أُسْرَةُ الرَّسُوْلِ',
+				i: 'Iya, ini pohon silsilah. Ini keluarga Rasul Shallallahu alaihi wasallam'
+			},
+			{
+				a: 'صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ',
+				i: 'Shallallahu alaihi wasallam'
+			},
+			{
+				a: 'هَذَا وَالِدُهُ عَبْدُ اللهِ',
+				i: 'Ini ayahnya: Abdullah'
+			},
+			{
+				a: 'وَهَذِهِ وَالِدَتُهُ آمِنَةٌ',
+				i: 'Dan ini ibunya: Aminah'
+			},
+			{
+				a: 'وَهَذَا جَدُّهُ عَبْدُ الْمُطَّلِبِ',
+				i: 'Dan ini kakeknya: Abdul Muththalib'
+			},
+			{
+				a: 'وَهَذَا عَمُّهُ الْعَبَّاسُ',
+				i: 'Dan ini pamannya: Abbas'
+			},
+			{
+				a: 'وَهَذَا عَمُّهُ حَمْزَةُ',
+				i: 'Dan ini pamannya: Hamzah'
+			},
+			{
+				a: 'وَهَذَا عَمُّهُ أَبُوْ طَالِبٍ',
+				i: 'Dan ini pamannya: Abu Thalib'
+			},
+			{
+				a: 'وَهَذِهِ عَمَّتُهُ صَفِيَّةُ',
+				i: 'Dan ini bibinya: Shofiyyah'
+			},
+			{
+				a: 'وَهَذَا ابْنُهُ القَاسِمُ',
+				i: 'Dan ini anaknya: Qasim'
+			},
+			{
+				a: 'وَهَذَا ابْنُهُ عَبْدُاللهِ',
+				i: 'Dan ini anaknya: Abdullah'
+			},
+			{
+				a: 'وَهَذَا ابْنُهُ إِبْرَاهِيْمُ',
+				i: 'Dan ini anaknya: Ibrahim'
+			},
+			{
+				a: 'وَهَذِهِ ابْنَتُهُ فَاطِمَةُ',
+				i: 'Dan ini anak perempuannya: Fatimah'
+			},
+			{
+				a: 'وَهَذِهِ ابْنَتُهُ رُقَيَّةُ',
+				i: 'Dan ini anak perempuannya: Ruqoyyah'
+			},
+			{
+				a: 'وَهِذِهِ ابْنَتُهُ زَيْنَبُ',
+				i: 'Dan ini anak perempuannya: Zainab'
+			},
+			{
+				a: 'وَهَذِهِ ابْنَتُهُ أُمُّ كُلْثُوْمَ',
+				i: 'Dan ini anak perempuannya: Ummu Kultsum'
+			}
+		],
+	},
+	{
+		page: '6',
+		sound: 's09.ogg',
+		title: 'Adzan Subuh',
+		aside: [
+			{
+				a: 'هَذَا أَذَانُ الفَجْرِ',
+				i: 'Ini (suara) adzan fajar (subuh)'
+			},
+			{
+				a: 'اللهُ أَكْبَرُ. اللهُ أَكْبَرُ. أَيْنَ الأَوْلَادُ؟',
+				i: 'Allahu akbar. Allahu akbar. Dimana anak-anak?'
+			},
+			{
+				a: 'سَعْدٌ فِي الحَمَّامِ يَتَوَضَّأُ',
+				i: "Sa'ad di kamar mandi sedang berwudhu"
+			},
+			{
+				a: 'وَأَيْنَ سَعِيْدٌ؟',
+				i: "Dan dimana Sa'id?"
+			},
+			{
+				a: 'سَعِيْدٌ فِي الغُرْفَةِ يَقْرَأُ القُرْآنَ',
+				i: "Sa'id ada didalam kamar sedang membaca Al-Qur'an"
+			},
+			{
+				a: 'وَأَيْنَ سَعِيْدَةٌ؟',
+				i: "Dan dimana Sa'idah?"
+			},
+			{
+				a: 'سَعِيْدَةٌ فِي المُصَلَّى تُصَلِّي',
+				i: "Sa'idah berada di mushalla sedang sholat"
+			},
+			{
+				a: ' أَيْنَ الْمِعْطَفُ يَا سَعْدٌ ؟',
+				i: 'Dimana mantel?'
+			},
+			{
+				a: 'هَذَا هُوَ المِعْطَفُ يَا وِالِدِي',
+				i: 'Ini dia mantel, wahai ayahku'
+			},
+			{
+				a: 'وَأَيْنَ النَّظَّارَةُ، يَا سَعِيْدٌ ؟',
+				i: "Dan dimana kacamata, hai Sa'id?"
+			},
+			{
+				a: 'هَذِهِ هِيَ النَّظَّارَةُ، يَا وَالِدِيْ',
+				i: 'Ini dia kacamata, wahai ayahku'
+			},
+			{
+				a: 'هَيًّا بِنَا إِلَى الْمَسْجِدِ',
+				i: 'Mari kita ke masjid'
+			},
+			{
+				a: 'هَيًّا بِنَا',
+				i: 'Skuyy'
+			}
+		],
+	},
+	{
+		page: '7',
+		sound: 's10.ogg',
+		title: 'Tempat Tinggal',
+		aside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
+			},
+			{
+				a: 'أَيْنَ تَسْكُنُ؟',
+				i: 'Dimana kamu tinggal?'
+			},
+			{
+				a: 'أَسْكُنُ فِي حَيِّ المَطَارِ. وَأَيْنَ تَسْكُنُ أَنْتَ؟',
+				i: 'Saya tinggal di kompleks bandara. Dan dimana kamu tinggal?'
+			},
+			{
+				a: 'أَسْكُنُ فِي حَيِّ الجَامِعَةِ',
+				i: 'Saya tinggal di kompleks universitas'
+			},
+			{
+				a: 'هَلْ تَسْكُنُ فِي بَيْتٍ؟',
+				i: 'Apakah kamu tinggal di sebuah rumah?'
+			},
+			{
+				a: 'نَعَمْ، أَسْكُنُ فِي بَيْتٍ. وَهَلْ تَسْكُنُ فِي بَيْتٍ؟',
+				i: 'Ya, saya tinggal di sebuah rumah. Apakah kamu tinggal di rumah?'
+			},
+			{
+				a: 'لَا، أَسْكُنُ فِي شَقَّةٍ',
+				i: 'Tidak, saya tinggal di apartemen'
+			},
+			{
+				a: 'مَا رَقْمُ شَقَّتِكَ؟',
+				i: 'Berapa nomor apartemenmu?'
+			},
+			{
+				a: '٥ . وَمَا رَقْمُ بَيْتِكَ؟',
+				i: '5. Dan berapa nomor rumahmu?'
+			},
+			{
+				a: '٩',
+				i: '9'
+			}
+		],
+	},
+	{
+		page: '8',
+		sound: 's11.ogg',
+		title: 'Apartemen',
+		aside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: "Wa'alaikumussalam"
+			},
+			{
+				a: 'أُرِيْدُ شَقَّةً مِنْ فَضْلِكَ',
+				i: 'Saya mau menginginkan sebuah apartemen'
+			},
+			{
+				a: 'لَدَيْنَا شَقَّةٌ جَمِيْلَةٌ',
+				i: 'Kami mempunyai sebuah apartemen yang indah'
+			},
+			{
+				a: 'كَمْ غُرْفَةً فِي الشَّقَّةِ؟',
+				i: 'Berapa kamar dalam sebuah apartemen?'
+			},
+			{
+				a: 'فِي الشَّقَّةِ خَمْسُ غُرَفٍ',
+				i: 'Dalam satu apartemen terdapat lima kamar'
+			},
+			{
+				a: 'فِي أَيِّ دَوْرٍ الشَّقَّةُ؟',
+				i: 'Pada tingkat keberapa flat itu?'
+			},
+			{
+				a: 'الشَّقَّةُ فِي الدَّوْرِ الخَامِسِ',
+				i: 'Apartemen itu di tingkat lima'
+			},
+			{
+				a: 'أُرِيْدُ مُشَاهَدَةَ الشَّقَّةِ',
+				i: 'Saya ingin melihat-lihat apartemennya'
+			},
+			{
+				a: 'تَفَضَّلْ، اُدْخُلْ، هَذَا بَابُ الشَّقَّةِ',
+				i: 'Silahkan masuk, ini pintu apartemennya'
+			},
+			{
+				a: 'هَذِهِ شَقَّةٌ جَمِيْلَةٌ',
+				i: 'Ini apartemen yang bagus'
+			}
+		],
+	},
+	{
+		page: '9',
+		sound: 's12.ogg',
+		title: 'Perabot Rumah',
+		aside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ. أَيَّ خِدْمَةٍ؟',
+				i: "Wa'alaikumussalam. Ada yang bisa dibantu?"
+			},
+			{
+				a: 'أُرِيْدُ بَعْضَ الأَثَاثِ',
+				i: 'Saya ingin beberapa perabot'
+			},
+			{
+				a: 'مَاذَا تُرِيْدُ لِغُرْفَةِ النَّوْمِ؟',
+				i: 'Apa yang anda inginkan untuk kamar tidur?'
+			},
+			{
+				a: 'أُرِيْدُ سَرِيْرًا وَسِتَارَةً',
+				i: 'Saya ingin sebuah ranjang dan sebuah tirai'
+			},
+			{
+				a: 'وَمَاذَا تُرِيْدُ لِغُرْفَةِ الجُلُوْسِ؟',
+				i: 'Apa yang anda inginkan untuk ruang tamu?'
+			},
+			{
+				a: 'أُرِيْدُ أَرِيْكَةً وَسَجَّادَةً',
+				i: 'Saya ingin sebuah sofa dan sebuah karpet'
+			},
+			{
+				a: 'وَمَاذَا تُرِيْدُ لِلْمَطْبَخِ؟',
+				i: 'Apa yang anda inginkan untuk dapur?'
+			},
+			{
+				a: 'أُرِيْدُ فُرْنًا وَثَلَّاجَةً',
+				i: 'Saya ingin sebuah pembuat roti dan sebuah kulkas'
+			},
+			{
+				a: 'وَمَاذَا تُرِيْدُ لِلْحَمَّامِ؟',
+				i: 'Apa yang anda inginkan untuk kamar mandi?'
+			},
+			{
+				a: 'أُرِيْدُ سَخَّانًا وَمِرْآةً',
+				i: 'Saya ingin sebuah penghangat air dan sebuah cermin'
+			},
+			{
+				a: 'شُكْرًا، أُرِيْدُ مُشَاهَدَةَ الأَثَاثِ',
+				i: 'Saya ingin melihat-lihat perabot itu'
+			},
+			{
+				a: 'تَفَضَّلْ',
+				i: 'Silahkan'
+			}
+		],
+	},
+	{
+		page: '10',
+		sound: 's13.ogg',
+		title: 'Pagi Hari',
+		aside: [
+			{
+				a: 'مَتَى تَسْتَيْقِظَ ؟',
+				i: 'Jam berapa engkau bangun?'
+			},
+			{
+				a: 'أَسْتَيْقِظُ عِنْدَ الفَجْرِ',
+				i: 'Saya bangun menjelang Fajar (Subuh)'
+			},
+			{
+				a: 'أَيْنَ تُصَلِّي الفَجْرَ',
+				i: 'Dimana engkau shalat subuh?'
+			},
+			{
+				a: 'أُصَلِّي الفَجْرَ فِي المَسْجِدِ',
+				i: 'Saya shalat subuh di masjid'
+			},
+			{
+				a: 'هَلْ تَنَامُ بَعْدَ الصَّلَاةِ ؟',
+				i: 'Apakah engkau tidur setelah shalat?'
+			},
+			{
+				a: 'لَا، لَا أَنَامُ بَعْدَ الصَّلَاةِ',
+				i: 'Tidak, saya tidak tidur setelah shalat'
+			},
+			{
+				a: 'مَاذَا تَفْعَلُ بَعْدَ الصَّلَاةِ ؟',
+				i: 'Apa yang engkau kerjakan setelah shalat?'
+			},
+			{
+				a: 'أَقْرَأُ القُرْآنَ',
+				i: 'Saya membaca al-Quran'
+			},
+			{
+				a: 'وَمَتَى تَذْهَبُ إِلَى المَدْرَسَةِ ؟',
+				i: 'Dan kapan (jam berapa) engkau pergi ke sekolah?'
+			},
+			{
+				a: 'أَذْهَبُ السَّاعَةَ السَّابِعَةَ',
+				i: 'Saya pergi pukul tujuh'
+			},
+			{
+				a: 'هَلْ تَذْهَبُ بِالسَّيَّارَةِ ؟',
+				i: 'Apakah engkau pergi dengan mobil (pribadi)?'
+			},
+			{
+				a: ' لَا، أَذْهَبُ بِالحَافِلَةِ',
+				i: 'Tidak, saya pergi dengan bus'
+			}
+		],
+	},
+	{
+		page: '11',
+		sound: 's14.ogg',
+		title: 'Libur',
+		aside: [
+			{
+				a: 'هَذَا يَوْمُ العُطْلَةِ',
+				i: 'Ini hari libur'
+			},
+			{
+				a: 'هَذَا يَوْمُ العَمَلِ',
+				i: 'Ini hari kerja'
+			},
+			{
+				a: 'وَمَاذَا سَتَفْعَلُ يَا طِارِقُ ؟',
+				i: 'Apa yang akan engkau kerjakan, hai Toha?'
+			},
+			{
+				a: 'سَأَكْنُسُ غُرْفَةَ الجُلُوْسِ',
+				i: 'Saya akan menyapu ruang tamu'
+			},
+			{
+				a: 'وَمَاذَا سَتَفْعَلِيْنَ يَا فَاطِمَةُ ؟',
+				i: 'Apa yang akan engkau kerjakan, hai Fatimah?'
+			},
+			{
+				a: 'سَأَكْنُسُ غُرْفَةَ النَّوْمِ',
+				i: 'Saya akan menyapu kamar tidur'
+			},
+			{
+				a: 'وَمَاذَا سَتَفْعَلُ يَا أَحْمَدُ ؟',
+				i: 'Apa yang akan engkau kerjakan, hai Ahmad?'
+			},
+			{
+				a: 'سَأَغْسِلُ المَلَابِسَ',
+				i: 'Saya akan mencuci pakaian'
+			},
+			{
+				a: 'وَمَاذَا سَتَفْعَلِيْنَ يَا لَطِيْفَةُ ؟',
+				i: 'Apa yang akan engkau kerjakan, hai Latifah?'
+			},
+			{
+				a: 'سَأَكْوِي المَلَابِسَ',
+				i: 'Saya akan menyetrika pakaian'
+			},
+			{
+				a: ' أَنَا سَأَغْسِلُ الأَطْبَاقَ',
+				i: 'Saya akan mencuci peralatan makan'
+			},
+			{
+				a: 'وَأَنَا سَأَقْرَأُ القُرْآنَ',
+				i: 'Dan saya akan membaca al-Quran'
+			}
+		],
+	},
+	{
+		page: '12',
+		sound: 's15.ogg',
+		title: 'Pagi di Hari Libur',
+		aside: [
+			{
+				a: 'مَتَى تَسْتَيْقِظُ يَوْمَ العُطْلَةِ ؟',
+				i: 'Kapan engkau bangun pada hari libur?'
+			},
+			{
+				a: 'أَسْتَيْقِظُ مُبَكِّرًا . وَمَتَى تَسْتَيْقِظُ أَنْتَ ؟',
+				i: 'Saya bangun di awal pagi. Kalau engkau, kapan engkau bangun?'
+			},
+			{
+				a: ' أَسْتَيْقِظُ مُتُأَخِّرًا',
+				i: 'Saya bangun terlambat'
+			},
+			{
+				a: 'مَاذَا تَفْعَلُ فِي الصَّبَاحِ ؟',
+				i: 'Apa yang engkau kerjakan di waktu pagi?'
+			},
+			{
+				a: 'أُشَاهِدُ التِّلْفَازَ . وَمَاذَا تَفْعَلُ أَنْتَ ؟',
+				i: 'Saya menonton televisi. Bagaimana denganmu?'
+			},
+			{
+				a: 'أَقْرَأُ صَحِيْفَةً أَوْ كِتَابًا',
+				i: 'Saya membaca koran atau buku'
+			},
+			{
+				a: 'أَيْنَ تُصَلِّي الجُمُعَةَ ؟',
+				i: 'Dimana engkau shalat Jumat?'
+			},
+			{
+				a: 'أُصَلِّي الجُمُعَةَ فِي المَسْجِدِ الكَبِيْرِ . وَأَيْنَ تُصُلِّي أَنْتَ ؟',
+				i: 'Saya shalat jumat di masjid raya. Dimana engkau shalat Jumat?'
+			},
+			{
+				a: 'أُصَلِّي فِي المَسْجِدِ الكَبِيْرِ أَيْضًا',
+				i: 'Saya juga shalat di masjid raya'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's16.ogg',
+		title: 'Makanan Pokok',
+		aside: [
+			{
+				a: 'إِلَى أَيْنَ تَذْهَبُ يَا سَالِمُ ؟',
+				i: 'Kemana engkau pergi hai Salim?'
+			},
+			{
+				a: 'إِلَى المَطْعَمِ',
+				i: 'Ke kantin'
+			},
+			{
+				a: 'كَمْ وَجْبَةً تَأْكُلُ فِي اليَوْمِ ؟',
+				i: 'Berapa kali engkau makan dalam sehari?'
+			},
+			{
+				a: ' آكُلُ ثَلَاثَ وَجَبَاتٍ : الفَطُوْرَ ، وَالغَدَاءَ ، وَالعَشَاءَ',
+				i: 'Saya makan tiga kali: makan pagi, makan siang dan makan malam'
+			},
+			{
+				a: 'هَذَا كَثِيْرٌ جِدًّا . أَنَا آكُلُ وَجْبَةً وَاحِدَةً',
+				i: 'Banyak sekali. Saya makan satu kali'
+			},
+			{
+				a: 'هَذَا قَلِيْلٌ جِدًّا',
+				i: 'Sedikit sekali'
+			},
+			{
+				a: 'مَاذَا تَأْكُلُ فِي الغَدَاءِ ؟',
+				i: 'Apa yang engkau makan di waktu siang?'
+			},
+			{
+				a: 'آكُلُ الأَرُزَّ وَالخُبْزَ . وَمَاذَا تَأْكُلُ أَنْتَ ؟',
+				i: 'Saya makan daging, ayam, nasi dan roti. Apa yang engkau makan?'
+			},
+			{
+				a: ' آكُلُ السَّمَكَ وَالسَّلَطَةَ وَالفَاكِهَةَ',
+				i: 'Saya makan ikan, selada dan buah-buahan'
+			},
+			{
+				a: 'مَا وَزْنُكَ ؟',
+				i: 'Berapa beratmu?'
+			},
+			{
+				a: ' ٦٠ كِيْلًا . وَمَا وَزْنُكَ أَنْتَ ؟',
+				i: '60 kilo. Kalau engkau berapa beratmu?'
+			},
+			{
+				a: ' ١٠ كِيْلٍ',
+				i: '100 kilo'
+			},
+			{
+				a: ' أَنْتَ سَمِيْنٌ جِدًّا',
+				i: 'Engkau gemuk sekal'
+			},
+			{
+				a: ' أَنْتَ نَحِيْفٌ جِدًّا',
+				i: 'Engkau kurus sekali'
+			},
+		],
+	},
+	{
+		page: '15',
+		sound: 's17.ogg',
+		title: 'Makanan',
+		aside: [
+			{
+				a: 'مَاذَا تَطْلُبِيْنَ مِنَ الطَّعَامِ ؟',
+				i: 'Engkau mau makan apa?'
+			},
+			{
+				a: ' بَعْضَ السَّمَكِ وَالأَرُزِّ مِنْ فَضْلِكِ',
+				i: 'Sedikit ikan dan nasi, kalau berkenan'
+			},
+			{
+				a: 'وَمَاذَا تَطْلُبِيْنَ مِنَ الشَّرَابِ ؟',
+				i: 'Engkau mau minum apa?'
+			},
+			{
+				a: 'مَاءً مِنْ فَضْلِكِ',
+				i: 'Air putih saja'
+			},
+			{
+				a: 'وَمَاذَا تُفَضِّلِيْنَ مِنَ الفَاكِهَةِ ؟',
+				i: 'Engkau suka buah-buahan apa?'
+			},
+			{
+				a: ' التَّمْرَ أَوِ العِنَبِ',
+				i: 'Kurma atau anggur'
+			},
+			{
+				a: 'هَلْ تَشْرَبِيْنَ الشَّايَ ؟',
+				i: 'Apakah engkau minum teh?'
+			},
+			{
+				a: ' َلَا ، أُفَضِّلُ القَهْوَة',
+				i: 'Tidak. Saya lebih suka kopi'
+			},
+			{
+				a: 'القَهْوَةَ بِالحَلِيْبِ ؟',
+				i: 'Kopi dengan susu?'
+			},
+			{
+				a: 'نَعَمْ ، القَهْوَةَ بِالحَلِيْبِ',
+				i: 'Ya. Kopi dengan susu'
+			},
+			{
+				a: 'هَلْ تُرِيْدِيْنَ شَيْئًا آخَرَ ؟',
+				i: 'Ada yang engkau inginkan selain itu?'
+			},
+			{
+				a: 'لَا ، وَشُكْرًا',
+				i: 'Tidak, terimakasih'
+			},
+			{
+				a: 'عَفْوًا',
+				i: 'Sama-sama'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's18.ogg',
+		title: 'Makan Siang',
+		aside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُم',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: ' وَعَلَيْكُمُ السَّلَامُ',
+				i: 'Waalaikumussalam'
+			},
+			{
+				a: 'أَنَا جَوْعَانٌ جِدًّا',
+				i: 'Saya lapar sekali'
+			},
+			{
+				a: ' الغَدَاءُ عَلَى المَائِدَةِ',
+				i: 'Makan siang di atas meja makan'
+			},
+			{
+				a: 'مَا هَذَا ! سَمَكٌ وَلَحْمٌ وَدَجَاجٌ وَأَرُزٌّ وَسَلَطَةٌ وَفَاكِهَةٌ ! هَذَا كَثِيْرٌ جِدًّا',
+				i: 'Apa ini?! Ikan, daging, ayam, nasi, buah-buahan! Ini banyak sekali'
+			},
+			{
+				a: ' لَا تَأْكُلْ ... لَا تَأْكُلْ . اِجْلِسْ',
+				i: 'Jangan dimakan... jangan dimakan'
+			},
+			{
+				a: 'لِمَاذَا ؟ أَنَا جَوْعَانٌ',
+				i: 'Kenapa? Saya lapar'
+			},
+			{
+				a: ' لَدَيْنَا ضُيُوْفٌ',
+				i: 'Kita kedatangan tamu'
+			},
+			{
+				a: 'لَدَيْنَا ضُيُوْفٌ ! مَنْ !؟',
+				i: 'Kita kedatangan tamu? Siapa?!'
+			},
+			{
+				a: ' وَالِدِي وَوَالِدَتِي وَأَخِي',
+				i: 'Ayahku dan ibuku'
+			},
+			{
+				a: 'أَيْنَ الضُّيُوْفُ ؟',
+				i: 'Dimana tamu-tamu itu?'
+			},
+			{
+				a: 'فِي غُرْفَةِ الجُلُوْسِ',
+				i: 'Di ruang tamu'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's19.ogg',
+		title: 'Shalat Lima Waktu',
+		aside: [
+			{
+				a: 'أَيْنَ تُصَلِّي الصَّلَوَاتِ الخَمْسَ ؟',
+				i: 'Dimana engkau shalat lima waktu?'
+			},
+			{
+				a: 'أُصَلِّي الظُّهْرَ ، وَالعَصْرَ ، وَالمَغْرِبَ ، وَالعِشَاءَ فِي مَسْجِدِ بِلَالٍ',
+				i: 'Saya shalat zhuhur, ashar, maghrib, dan isya di masjid Bilal'
+			},
+			{
+				a: 'وَأَيْنَ تُصَلِّي الفَجْرَ ؟',
+				i: 'Dan dimana engkau shalat shubuh?'
+			},
+			{
+				a: ' أُصَلِّي الفَجْرَ فِي البَيْتِ',
+				i: 'Saya shalat shubuh di rumah'
+			},
+			{
+				a: 'لِمَاذَا تُصَلِّي الفَجْرَ فِي البَيْتِ ؟',
+				i: 'Mengapa engkau shalat shubuh di rumah?'
+			},
+			{
+				a: ' لَا أَسْمَعُ الأَذَانَ',
+				i: 'Saya tidak mendengar adzan'
+			},
+			{
+				a: 'هَلْ تَسْتَيْقِظُ مُتَأَخِّرًا ؟',
+				i: 'Apakah engkau bangun terlambat?'
+			},
+			{
+				a: ' نَعَمْ ، بَعْدَ صَلَاةِ الفَجْرِ',
+				i: 'Iya. Sesudah shalat shubuh'
+			},
+			{
+				a: ' اِسْتَيْقِظْ مُبَكِّرًا',
+				i: 'Bangunlah di awal shubuh'
+			},
+			{
+				a: ' لَا أَسْتَطِيْعُ ، أَعْمَلُ فِي اللَّيْلِ',
+				i: 'Saya tidak sanggup, saya bekerja di malam hari'
+			},
+			{
+				a: 'ضَعِ المُنَبِّهَ بِجَانِبِكَ',
+				i: 'Letakkan jam weker di sampingmu'
+			},
+			{
+				a: 'هَذِهِ فِكْرَةٌ طَيِّبَةٌ . جَزَاكَ اللهُ خَيْرًا',
+				i: 'Ini gagasan yang bagus. Semoga Allah membalas kebaikanmu'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's20.ogg',
+		title: 'Bepergian',
+		aside: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ',
+				i: 'Waalaikumussalam'
+			},
+			{
+				a: 'أَنَا مُسَافِرٌ إِلَى مَكَّةَ ، إِلَى أَيْنَ أَنْتَ مُسَافِرٌ ؟',
+				i: 'Saya pergi menuju Makkah. Kemana engkau akan pergi?'
+			},
+			{
+				a: 'أَنَا مُسَافِرٌ إِلَى المَدِيْنَةِ . لِمَاذَا أَنْتَ مُسَافِرٌ إِلَى مَكَّةَ ؟',
+				i: 'Saya pergi menuju Madinah. Untuk apa engkau pergi ke Makkah?'
+			},
+			{
+				a: 'لِلصَّلَاةِ فِي المَسْجِدِ الحَرَامِ . وَلِمَاذَا أَنْتَ مُسَافِرٌ إِلَى المَدِيْنَةِ ؟',
+				i: 'Untuk shalat di Masjidil Haram. Untuk apa engkau pergi ke Madinah?'
+			},
+			{
+				a: 'لِلصَّلَاةِ فِي المَسْجِدِ النَّبَوِيِّ . أَيْنَ سَتُصَلِّي الجُمُعَةَ ؟',
+				i: "Untuk shalat di Masjid Nabawi. Dimana engkau shalat jum'at?"
+			},
+			{
+				a: 'فِي المَسْجِدِ الحَرَامِ إِنْ شَاءَ اللهُ . وَأَيْنَ سَتُصَلِّي الجُمُعَةَ ؟',
+				i: "Di Masjidil Haram Insya Allah.  Dimana engkau shalat jum'at?"
+			},
+			{
+				a: ' فِي المَسْجِدِ النَّبَوِيِّ إِنْ شَاءَ اللهُ',
+				i: 'Di Masjid Nabawi Insya Allah'
+			},
+			{
+				a: 'كَيْفَ سَتُسَافِرُ إِلَى المَدِيْنَةِ ؟',
+				i: 'Bagaimana engkau pergi ke Madinah?'
+			},
+			{
+				a: ' أَرْكَبُ الطَّائِرَةَ',
+				i: 'Saya naik pesawat'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's21.ogg',
+		title: 'Adzan Ashar',
+		aside: [
+			{
+				a: 'هَذَا أَذَانُ العَصْرِ',
+				i: 'Ini adzan Ashar'
+			},
+			{
+				a: ' هَيَّا بِنَا إِلَى المَسْجِدِ',
+				i: 'Mari kita ke masjid'
+			},
+			{
+				a: 'أَنَا أُصَلِّي فِي البَيْتِ',
+				i: 'Saya shalat di rumah'
+			},
+			{
+				a: ' الصَّلَاةُ فِي المَسْجِدِ أَفْضَلُ',
+				i: 'Shalat di masjid lebih baik'
+			},
+			{
+				a: 'المَسْجِدُ بَعِيْدٌ',
+				i: 'Masjid itu jauh'
+			},
+			{
+				a: 'المَسْجِدُ قَرِيْبٌ . هَلْ أَنْتَ مَرِيْضٌ ؟',
+				i: 'Masjid itu dekat. Apakah engkau sakit?'
+			},
+			{
+				a: ' لَا ، أَنَا بِخَيْرٍ',
+				i: 'Tidak, saya baik-baik saja'
+			},
+			{
+				a: ' أَنْتَ كَسْلَانُ',
+				i: 'Engkau malas'
+			},
+			{
+				a: 'هَذَا صَحِيْحٌ . آسِفٌ',
+				i: 'Benar. Maaf'
+			},
+			{
+				a: 'أَنَا ذَاهِبٌ إِلَى المَسْجِدِ',
+				i: 'Saya pergi ke masjid'
+			},
+			{
+				a: ' اِنْتَظِرْ ، أَنَا ذَاهِبٌ مَعَكَ',
+				i: 'Tunggu, saya pergi bersamamu'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's22.ogg',
+		title: 'Jadwal Pelajaran',
+		aside: [
+			{
+				a: 'اُنْظُرْ إِلَى اللَّوْحَةِ . اِقْرَأِ الجَدْوَلَ الدِّرَاسِيَّ',
+				i: 'Lihat di papan pengumuman! Bacalah jadwal pelajaran!'
+			},
+			{
+				a: 'الدِّرَاسَةُ خَمْسَةُ أَيَّامٍ فِي الأُسْبُوْعِ',
+				i: 'Pelajaran ada lima hari dalam sepekan'
+			},
+			{
+				a: 'نَعَمْ ، يَوْمُ السَّبْتِ ، وَيَوْمُ الأَحَدِ ، وَيَوْمُ الإِثْنَيْنِ ، وَيَوْمُ الثُّلَاثَاءِ ، وَيَوْمُ . الأَرْبِعَاءِ',
+				i: 'Iya. Hari Sabtu, hari Ahad, hari Senin, hari Selasa dan hari Rabu'
+			},
+			{
+				a: 'العُطْلَةُ يَوْمُ الخَمِيْسِ ، وَيَوْمُ الأَرْبِعَاءِ',
+				i: 'Libur pada hari Kamis dan hari Jumat'
+			},
+			{
+				a: ' اُكْتُبِ المَوَادَّ الدِّرَاسِيَّةَ',
+				i: 'Tulislah mata pelajaran!'
+			},
+			{
+				a: 'الثَّقَافَةُ الإِسْلَامِيَّةُ ، وَاللُّغَةُ العَرَبِيَّةُ ، وَالرِّيَاضِيَّاتُ ، وَالعُلُوْمُ ، وَالحَاسُوْبُ . مَتَى تَبْدَأُ الاِخْتِبَارَاتُ ؟',
+				i: 'Ilmu-ilmu Keislaman, Bahasa Arab, Olahraga, Ilmu Pengetahuan Umum dan Komputer. Kapan mulai Ujian?'
+			},
+			{
+				a: 'فِي شَهْرِ شَعْبَانَ',
+				i: "Pada bulan Sya'ban"
+			},
+			{
+				a: 'وَمَتَى يَنْتَهِي العَامُ الدِّرَاسِيُّ ؟',
+				i: 'Dan kapan berakhir Tahun Pelajaran?'
+			},
+			{
+				a: ' َفِي شَهْرِ رَمَضَان',
+				i: 'Di bulan Ramadhan'
+			},
+			{
+				a: ' العُطْلَةُ ثَلَاثَةُ أَشْهُرٍ',
+				i: 'Libur ada tiga bulan'
+			},
+			{
+				a: ' الحَمْدُ للهِ ، العُطْلَةُ طَوِيْلَةٌ',
+				i: 'Alhamdulillah, liburan panjang'
+			},
+			{
+				a: 'بَدَأَتِ الحِصَّةُ ، وَجَاءَ المُعَلِّمُ . هَيَّا بِنَا إِلَى الصَّفِّ',
+				i: 'Jam pelajaran sudah dimulai. Mari kita ke kelas!'
+			},
+			{
+				a: 'هَيَّا بِنَا',
+				i: 'Skuyy!'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's23.ogg',
+		title: 'Mahasiswi',
+		aside: [
+			{
+				a: ' السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: ' وَعَلَيْكُمُ السَّلَامُ',
+				i: 'Waalaikumussalam'
+			},
+			{
+				a: 'اِسْمِي نَدَى . أَنَا سُوْرِيَّةٌ',
+				i: 'Namaku Nada. Saya orang Syria'
+			},
+			{
+				a: ' اِسْمِي إِلْهَامٌ . أَنَا سُعُوْدِيَّةٌ',
+				i: 'Namaku Ilham. Saya orang Saudi'
+			},
+			{
+				a: ' أَنَا طَالِبَةٌ فِي جَامِعَةِ دِمَشْقَ',
+				i: 'Saya mahasiswa di Universitas Damaskus'
+			},
+			{
+				a: ' أَنَا طَالِبَةُ فِي جَامِعَةِ أُمِّ القُرَى',
+				i: 'Saya mahasiswi di Universitas Ummul-Qura'
+			},
+			{
+				a: 'فِي أَيِّ كُلِّيَّةٍ تَدْرُسِيْنَ ؟',
+				i: 'Di Fakultas mana engkau belajar?'
+			},
+			{
+				a: 'أَدْرُسُ فِي كُلِّيَّةِ التَّرْبِيَةِ . وَفِي أَيِّ كُلِّيَّةٍ تَدْرُسِيْنَ ؟',
+				i: 'Saya belajar di Fakultas Pendidikan. Di Fakultas mana engkau belajar?'
+			},
+			{
+				a: 'أَدْرُسُ فِي كُلِّيَّةِ الطِّبِّ',
+				i: 'Saya belajar di Fakultas Kedokteran'
+			},
+			{
+				a: ' سَأَكُوْنُ مُدَرِّسَةً ، إِنْ شَاءَ اللهُ',
+				i: 'Saya akan menjadi guru, insya Allah'
+			},
+			{
+				a: 'وَسَأَكُوْنُ طَبِيْبَةً ، إِنْ شَاءَ اللهُ',
+				i: 'Saya akan menjadi dokter, insya Allah'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's24.ogg',
+		title: 'Sekolah',
+		aside: [
+			{
+				a: 'أَيْنَ تَذْهَبُ يَا غَسَّانُ ؟',
+				i: 'Engkau mau kemana, hai Gassan?'
+			},
+			{
+				a: 'أَذْهَبُ إِلَى المَدْرَسَةِ',
+				i: 'Saya pergi ke sekolah'
+			},
+			{
+				a: ' الوَقْتُ مُبَكِّرٌ . السَّاعَةُ الآنَ السَّادِسَةُ صَبَاحًا',
+				i: 'Waktu masih pagi. Sekarang jam enam pagi'
+			},
+			{
+				a: ' المَدْرَسَةُ بَعِيْدَةٌ عَنِ البَيْتِ',
+				i: 'Sekolah jauh dari rumah'
+			},
+			{
+				a: 'مَتَى يَبْدَأُ اليَوْمُ الدِّرَاسِيُّ ؟',
+				i: 'Jam berapa dimulai pelajaran harian?'
+			},
+			{
+				a: 'يَبْدَأُ السَّاعَةَ السَّابِعَةَ صَبَاحًا',
+				i: 'Mulai pada jam tujuh pagi'
+			},
+			{
+				a: 'هَلْ تَذْهَبُ بِالحَافِلَةِ ؟',
+				i: 'Apakah engkau pergi dengan mobil umum?'
+			},
+			{
+				a: ' لَا ، أَذْهَبُ بِالسَّيَّارَةِ',
+				i: 'Tidak, saya pergi dengan mobil pribadi'
+			},
+			{
+				a: 'مَتَى يَنْتَهِي اليَوْمُ الدِّرَاسِيُّ ؟',
+				i: 'Jam berapa selesai pelajaran harian?'
+			},
+			{
+				a: ' يَنْتَهِي السَّاعَةَ الوَاحِدَةَ ظُهْرًا',
+				i: 'Selesai pada jam satu siang'
+			},
+			{
+				a: 'كَمْ حِصَّةً تَدْرُسُ فِي اليَوْمِ ؟',
+				i: 'Berapa jam pelajaran dalam satu hari?'
+			},
+			{
+				a: ' أَدْرُسُ سِتَّ حِصَصٍ فِي اليَوْمِ',
+				i: 'Saya belajar enam jam pelajaran dalam sehari'
+			},
+			{
+				a: 'مَاذَا تَفْعَلُ فِي الاِسْتِرَاحَةِ ؟',
+				i: 'Apa yang engkau lakukan pada jam istirahat?'
+			},
+			{
+				a: 'أَذْهَبُ إِلَى المَكْتَبَةِ ، أَوْ إِلَى المُخْتَبَرِ',
+				i: 'Saya pergi ke perpustakaan atau ke laboratorium'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's25.ogg',
+		title: 'Pekerjaan',
+		aside: [
+			{
+				a: ' أَعْمَلُ طَبِيْبًا ، مَاذَا تَعْمَلُ أَنْتَ ؟',
+				i: 'Saya bekerja sebagai dokter, kalau engkau kerja apa?'
+			},
+			{
+				a: 'أَعْمَلُ مُهَنْدِسًا',
+				i: 'Saya bekerja sebagai insinyur'
+			},
+			{
+				a: 'أَيْنَ تَعْمَلُ ؟',
+				i: 'Dimana engkau bekerja?'
+			},
+			{
+				a: 'أَعْمَلُ فِي شَرِكَةٍ ، وَأَيْنَ تَعْمَلُ أَنْتَ ؟',
+				i: 'Saya bekerja di perusahaan. Dimana engkau bekerja?'
+			},
+			{
+				a: 'أَعْمَلُ فِي المُسْتَشْفَى',
+				i: 'Saya bekerja di Rumah Sakit'
+			},
+			{
+				a: 'كَمْ سَاعَةً تَعْمَلُ فِي اليَوْمِ ؟',
+				i: 'Berapa jam engkau bekerja dalam sehari?'
+			},
+			{
+				a: ' أَعْمَلُ ثَمَانِيَ سَاعَاتٍ فِي اليَوْمِ . وَكَمْ سَاعَةً تَعْمَلُ فِي اليَوْمِ ؟',
+				i: 'Saya bekerja delapan jam dalam sehari. Berapa jam engkau bekerja dalam sehari?'
+			},
+			{
+				a: 'أَعْمَلُ سَبْعَ سَاعَاتٍ',
+				i: 'Saya bekerja tujuh jam'
+			},
+			{
+				a: 'هَلْ تُحِبُّ عَمَلَكَ ؟',
+				i: 'Apakah engkau menyukai pekerjaanmu?'
+			},
+			{
+				a: ' نَعَمْ ، أُحِبُّ عَمَلِي',
+				i: 'Iya, saya menyukai pekerjaanku'
+			},
+			{
+				a: ' وَأَنَا أُحِبُّ عَمَلِي أَيْضًا',
+				i: 'Saya juga menyukai pekerjaanku'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's26.ogg',
+		title: 'Cita-cita',
+		aside: [
+			{
+				a: 'مَاذَا سَنَعْمَلُ بَعْدَ الدِّرَاسَةِ ؟',
+				i: 'Apa yang akan kita kerjakan sesudah studi?'
+			},
+			{
+				a: ' أَنَا أَدْرُسُ الطِّبَّ فِي كُلِّيَّةِ الطِّبِّ ، سَأَعْمَلُ طَبِيْبًا ، إِنْ شَاءَ اللهُ',
+				i: 'Saya belajar kedokteran, di fakultas kedokteran, saya akan bekerja sebagai dokter, insya Allah'
+			},
+			{
+				a: 'أَنَا أَدْرُسُ الصَيْدَلَةَ فِي كُلِّيَّةِ الصَّيْدَلَةِ ، سَأَعْمَلُ صَيْدَلِيَّا ، إِنْ شَاءَ اللهُ',
+				i: 'Saya belajar kedokteran, di fakultas farmasi, saya akan bekerja sebagai apoteker, insya Allah'
+			},
+			{
+				a: 'أَنَا أَدْرُسُ التَّمْرِيْضَ فِي كُلِّيَّةِ التَّمْرِيْضِ ، سَأَعْمَلُ مُمُرِّضًا ، إِنْ شَاءَ اللهُ',
+				i: 'Saya belajar kedokteran, di fakultas keperawatan, saya akan bekerja sebagai perawat, insya Allah'
+			},
+			{
+				a: ' أَنَا أَدْرُسُ الهَنْدَسَةِ فِي كُلِّيَّةِ الهَنْدَسَةِ ، سَأَعْمَلُ مُهَنْدِسًا ، إِنْ شَاءَ اللهُ',
+				i: 'Saya belajar teknik, di fakultas teknik, saya akan bekerja sebagai insinyur, insya Allah'
+			},
+			{
+				a: ' أَنَا أَدْرُسُ الطَّيَرَانَ فِي كُلِّيَّةِ الطَّيَرَانِ ، سَأَعْمَلُ طَيَّارًا ، إِنْ شَاءَ اللهُ',
+				i: 'Saya belajar penerbangan, di fakultas penerbangan, saya akan bekerja sebagai pilot, insya Allah'
+			},
+			{
+				a: ' أَنَا أَدْرُسُ التَّرْبِيَةَ فِي كُلِّيًّةِ التَّرْبِيَةِ ، سَأَعْمَلُ مُدَرِّسًا ، إِنْ شَاءَ اللهُ',
+				i: 'Saya belajar kependidikan, di fakultas pendidikan, saya akan bekerja sebagai guru, insya Allah'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's27.ogg',
+		title: 'Guru Wanita',
+		aside: [
+			{
+				a: 'أَنَا مُدَرِّسَةٌ . مَا مِهْنَتُكِ ؟',
+				i: 'Saya seorang guru. Apa profesimu?'
+			},
+			{
+				a: 'أَنَا مُدَرِّسَةٌ أَيْضًا',
+				i: 'Saya juga seorang guru'
+			},
+			{
+				a: 'فِي أَيِّ مَرْحَلَةٍ تُدَرِّسِيْنَ ؟',
+				i: 'Di level berapa engkau mengajar?'
+			},
+			{
+				a: 'أُدَرِّسُ فِي المَرْحَلَةِ الاِبْتِدَائِيَّةِ . وَفِي أَيِّ مَرْحَلَةٍ تُدَرِّسِيْنَ أَنْتِ ؟',
+				i: 'Saya mengajar di sekolah dasar. Kalau engkau di level berapa engkau mengajar?'
+			},
+			{
+				a: 'أُدَرِّسُ فِي المَرْحَلَةِ المُتَوَسِّطَةِ',
+				i: 'Saya mengajar di sekolah menengah'
+			},
+			{
+				a: 'هَلْ لَكِ أَطْفَالٌ ؟',
+				i: 'Apakah engkau mempunyai anak?'
+			},
+			{
+				a: 'نَعَمْ ، لِي أَطْفَالٌ',
+				i: 'Ya, saya mempunyai beberapa anak'
+			},
+			{
+				a: 'كَمْ طِفْلًا لَكِ ؟',
+				i: 'Berapa anakmu?'
+			},
+			{
+				a: 'لِي خَمْسَةُ أَطْفَالٍ',
+				i: 'Saya mempunyai lima orang anak'
+			},
+			{
+				a: 'هَلْ تُحِبِّيْنَ عَمَلَكِ ؟',
+				i: 'Apakah engkau menyukai pekerjaanmu?'
+			},
+			{
+				a: ' نَعَمْ ، أُحِبُّ عَمَلِي',
+				i: 'Ya, saya menyukai pekerjaanku'
+			},
+			{
+				a: 'وَأَنَا أُحِبُّ عَمَلِي أَيْضًا',
+				i: 'Saya juga menyukai pekerjaanku'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's28.ogg',
+		title: 'Kamus',
+		aside: [
+			{
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Selamat datang'
+			},
+			{
+				a: 'أُرِيْدُ مُعْجَمًا مِنْ فَضْلِكَ',
+				i: 'Saya ingin sebuah kamus'
+			},
+			{
+				a: 'أَيَّ مُعْجَمٍ تُرِيْدُ ؟',
+				i: 'Kamus yang mana engkau mau?'
+			},
+			{
+				a: 'أُرِيْدُ المُعْجَمَ العَرَبِيَّ',
+				i: 'Saya ingin Kamus Bahasa Arab'
+			},
+			{
+				a: ' تَفَضَّلِ المُعْجَمَ العَرَبِيَّ . وَمَاذَا تُرِيْدُ أَيْضًا ؟',
+				i: 'Silakan ini Kamus Bahasa Arab. Dan apa lagi yang engkau mau'
+			},
+			{
+				a: ' أُرِيْدُ كِتَابَ القِرَاءَةِ. وَكِتَابَ القَوَاعِدِ',
+				i: "Saya ingin Kitab al-Qira'ah dan Kitab al-Qawa'id"
+			},
+			{
+				a: 'هَذَا كِتَابُ القِرَاءَةِ . وَهَذَا كِتَابُ القَوَاعِدِ',
+				i: "Ini adalah Kitab al-Qira'ah. Dan ini kitab al-Qawa'id"
+			},
+			{
+				a: 'أُرِيْدُ دَفْتَرًا وَقَلَمًا',
+				i: 'Saya ingin buku tulis dan pulpen'
+			},
+			{
+				a: ' تَفَضَّلِ الدَّفْتَرَ وَالقَلَمَ . هَلْ تُرِيْدُ شَيْئًا آخَرَ ؟',
+				i: 'Silakan ini buku tulis dan pena. Apakah engkau masih mau sesuatu yang lainnya?'	
+			},
+			{
+				a: ' لَا ، وَشُكْرًا',
+				i: 'Tidak. Terimakasih'
+			},
+			{
+				a: 'المَطْلُوْبُ ثَلَاثُوْنَ رِيَالًا',
+				i: '(Harga) yang diminta tiga puluh Riyal'
+			},
+			{
+				a: ' مَاذَا تَقُوْلُ ؟ ثَلَاثُوْنَ رِيَالًا!',
+				i: 'Apa yang kau katakan?! tiga puluh riyal?'
+			},
+			{
+				a: ' نَعَمْ ، ثَلَاثُوْنَ رِيَالًا',
+				i: 'Iya, tiga puluh riyal'
+			},
+			{
+				a: 'تَفَضَّلْ ، هَذِهِ ثَلَاثُوْنَ رِيَالًا',
+				i: 'Silakan. Ini tiga puluh riyal'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's29.ogg',
+		title: 'Di Pasar',
+		aside: [
+			{
+				a: 'مَرْحَبًا ، أَيَّ خِدْمَةٍ',
+				i: 'Selamat datang, ada yang bisa dibantu?'
+			},
+			{
+				a: 'أُرِيْدُ سَمَكًا وَلَحْمًا وَدَجَاجًا',
+				i: 'Saya mau (membeli) ikan, daging dan ayam'
+			},
+			{
+				a: 'تَفَضَّلِي السَّمَكَ وَاللَّحْمَ وَالدَّجَاجَ . وَمَاذَا تُرِيْدِيْنَ أَيْضًا ؟',
+				i: 'Silakan, ini ikan, daging dan ayam. Apa lagi yang engkau mau?'
+			},
+			{
+				a: 'أُرِيْدُ خِيَارًا وَبَصَلًا وَطَمَاطِمَ',
+				i: 'Saya mau mentimun, bawang dan tomat'
+			},
+			{
+				a: 'تَفَضَّلِي الخِيَارَ وَالبَصَلَ وَالطَّمَاطِمَ . وَمَاذَا تُرِيْدِيْنَ أَيْضًا ؟',
+				i: 'Silakan ini mentimun, bawang dan tomat. . Apa lagi yang engkau mau?'
+			},
+			{
+				a: 'أُرِيْدُ سُكَّرًا وَشَايًا وَبُنًّا',
+				i: 'Saya ingin gula, teh dan kopi'
+			},
+			{
+				a: 'تَفَضَّلِي السُّكَّرَ وَالشَّايَ وَالبُنَّ. هَلْ تُرِيْدِيْنَ شَيْئًا آخَرَ ؟',
+				i: 'Silakan ini gula, teh dan kopi. Apakah engkau masih mau sesuatu yang lain?'
+			},
+			{
+				a: 'نَعَمْ ، طَبَقَ بَيْضٍ ، وَعُلْبَةَ مِلْحٍ',
+				i: 'Iya. Tempat telur dan tempat garam'
+			},
+			{
+				a: 'هَذَا طَبَقُ البَيْضِ ، وَهَذِهِ عُلْبَةُ المِلْحِ . المَطْلُوْبُ ثَمَانُوْنَ دِيْنَارًا',
+				i: 'Ini tempat telur dan tempat garam. (Harga barang-barang) yang diminta delapan puluh dinar'
+			},
+			{
+				a: 'تَفَضَّلْ ، هَذِهِ ثَمَانُوْنَ دِيْنَارًا',
+				i: 'Silakan, ini delapan puluh dinar'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's30.ogg',
+		title: 'Pakaian',
+		aside: [
+			{
+				a: ' تَفَضَّلْ ، أَيَّ خِدْمَةٍ',
+				i: 'Silakan, ada yang bisa dibantu?'
+			},
+			{
+				a: ' أُرِيْدُ قَمِيْصًا لَوْ سَمَحْتَ',
+				i: 'Saya mau (membeli) kemeja'
+			},
+			{
+				a: 'تَفَضَّلْ هُنَا ، هَذَا قِسْمُ القُمْصَانِ ، هَذَا قَمِيْصٌ أَبْيَضُ ، وَهَذَا أَصْفَرُ ، وَهَذَا أَزْرَقُ ، وَهَذَا أَحْمَرُ ، وَهَذَا أَسْوَدُ',
+				i: 'Silakan ke sini, ini bagian kemeja. Ini kemeja putih, ini kuning, ini biru, ini merah, dan ini hitam'
+			},
+			{
+				a: ' بِكَمِ القَمِيْصُ ؟',
+				i: 'Berapa harga kemeja itu?'
+			},
+			{
+				a: ' القَمِيْصُ بِعِشْرِيْنَ دِيْنَارًا . أَيَّ قَمِيْصٍ تُرِيْدُ ؟',
+				i: 'Kemeja (harganya) 20 dinar. Kemeja yang mana anda inginkan?'
+			},
+			{
+				a: ' سَأَشْتَرِي القَمِيْصَ الأَزْرَقَ',
+				i: 'Saya akan membeli kemeja biru'
+			},
+			{
+				a: 'هَذَا هُوَ القَمِيْصُ الأَزْرَقُ',
+				i: 'Ini dia kemeja biru'
+			},
+			{
+				a: 'شُكْرًا',
+				i: 'Terimakasih'
+			},
+			{
+				a: ' لَدَيْنَا أَثْوَابٌ جَمِيْلَةٌ',
+				i: 'Di (toko) kami (banyak) pakaian-pakaian yang bagus'
+			},
+			{
+				a: ' بِكَمِ الثَّوْبُ ؟',
+				i: 'Berapa harga pakaian itu?'
+			},
+			{
+				a: ' الثَّوْبُ بِثَلَاثِيْنَ دِيْنَارًا',
+				i: 'Pakaian itu (harganya) 30 dinar'
+			},
+			{
+				a: ' أُرِيْدُ الثَّوْبَ الأَبْيَضَ',
+				i: 'Saya ingin kemeja putih'
+			},
+			{
+				a: ' تَفَضَّلِ الثَّوْبَ الأَبْيَضَ . المَطْلُوْبُ خَمْسُوْنَ دِيْنَارًا',
+				i: 'Silakan ini kemeja putih. Harga (semuanya) 50 dinar'
+			},
+			{
+				a: ' تَفَضَّلْ ، هَذِهِ خَمْسُوْنَ دِيْنَارًا',
+				i: 'Silakan ini 50 dinar'
+			}
+		],
+	},
+	{
+		page: 'xxx',
+		sound: 's31.ogg',
+		title: 'Cuaca',
+		aside: [
+			{
+				a: 'كَيْفَ الجَوُّ فِي الخَارِجِ ؟',
+				i: 'Bagaimana cuaca di luar?'
+			},
+			{
+				a: 'السَّمَاءُ تُمْطِرُ الآنَ ؛ هَذَا فَصْلُ الخَرِيْفِ',
+				i: 'Sekarang sedang hujan. Ini musim gugur'
+			},
+			{
+				a: 'ثَوْبُكَ مُبْتَلٌّ . أَيْنَ المِعْطَفُ ؟',
+				i: 'Pakaianmu basah. Dimana mantel?'
+			},
+			{
+				a: ' تَرَكْتُهُ فِي الشَّرِكَةِ',
+				i: 'Aku meninggalkannya di perusahaan'
+			},
+			{
+				a: 'وَأَيْنَ المِظَلَّةُ ؟',
+				i: 'Dimana payung?'
+			},
+			{
+				a: ' تَرَكْتُهَا فِي السَّيَّارَةِ',
+				i: 'Saya meninggalkannya di mobil'
+			},
+			{
+				a: 'اِشْرَبْ هَذَا الشَّايَ الدَّافِئِ',
+				i: 'Minumlah teh ini. (Teh) ini hangat'
+			},
+			{
+				a: 'بَارَكَ اللهُ فِيْكِ',
+				i: 'Semoga Allah memberkahimu'
+			},
+			{
+				a: 'هَلْ نَخْرُجُ إِلَى السُّوْقِ الآنَ ؟',
+				i: 'Apakah kita berangkat ke pasar sekarang?'
+			},
+			{
+				a: ' المَاءُ كَثِيْرٌ جِدًّا فِي الخَارِجِ',
+				i: 'Air sangat banyak di luar'
+			},
+			{
+				a: 'مَاذَا نَفْعَلُ ؟',
+				i: 'Apa yang akan kita lakukan?'
+			},
+			{
+				a: ' نَبْقَى اللَّيْلَةَ فِي البَيْتِ',
+				i: 'Kita tinggal (sampai) malam di rumah'
+			},
+			{
+				a: 'وَنَذْهَبُ غَدًا إِلَى السُّوْقِ ، إِنْ شَاءَ اللهُ',
+				i: 'Dan kita pergi besok ke pasar. Insya Allah'
+			},
+			{
+				a: 'هَذِهِ فِكْرَةٌ طَيِّبَةٌ',
+				i: 'Ini pikiran yang bagus'
+			}
 		],
 	},
 ]

@@ -1,28 +1,12 @@
 <template>
 	<nb-container>
-		<nb-header :style="{ backgroundColor: white }">
-			<nb-view>
-				<nb-form>
-					<nb-picker
-						note
-						mode="dropdown"
-						:style="{ width: 120 }"
-						:selectedValue="selected"
-						:onValueChange="(value) => replace(value)"
-					>
-						<item
-						v-for="(data, index) in cellsFull"
-						:label="data.title" :value="index" />
-					</nb-picker>
-				</nb-form>
-			</nb-view>
-		</nb-header>
+		<header :nav="navigation">{{ cells.title }}</header>
 		<nb-content :style="{ backgroundColor: '#ffe6d6', padding: 11 }">
 			<nb-text class="audio-text">{{ cells.title }}</nb-text>
 			<nb-view class="bg-notes">
 				<nb-text>
 				</nb-text>
-				<nb-view :style="{ flex: 1, marginBottom: 23 }" v-for="txt in cells.script">
+				<nb-view :style="{ flex: 1, marginBottom: 23 }" v-for="txt in cells.aside">
 					<nb-text class="textbook arabic">{{ txt.a }}</nb-text>
 					<nb-text class="textbook">({{ txt.i }})</nb-text>
 				</nb-view>
@@ -34,26 +18,26 @@
 				<touchable-opacity v-else :on-press="() => stopAudio()">
 					<nb-icon name="closecircle" type="AntDesign" :style="{ fontSize: 40 }" />
 				</touchable-opacity>
-				<nb-text class="timestamp">{{ full }}/{{ full }}</nb-text>
+				<nb-text class="timestamp">{{ full }}</nb-text>
 			</nb-view>
 			<nb-view class="navicon-container">
 				<touchable-opacity v-if="index > 0" class="nav-icon" :on-press="() => prev(index-1)">
 					<nb-icon class="icony" name="doubleleft" type="AntDesign"/>
 				</touchable-opacity>
-				<touchable-opacity v-else class="nav-icon">
-					<nb-icon class="icony" name="stop" type="AntDesign"/>
-				</touchable-opacity>
+				<nb-view v-else class="nav-icon disabled">
+					<nb-icon class="icony" name="close" type="AntDesign"/>
+				</nb-view>
 
 				<touchable-opacity class="nav-icon" :on-press="() => home()">
-					<nb-icon class="icony" name="home" type="AntDesign"/>
+					<nb-icon class="icony" name="bars" type="AntDesign"/>
 				</touchable-opacity>
 
 				<touchable-opacity v-if="index < all-1" class="nav-icon" :on-press="() => next(index+1)">
 					<nb-icon class="icony" name="doubleright" type="AntDesign" />
 				</touchable-opacity>
-				<touchable-opacity v-else class="nav-icon">
-					<nb-icon class="icony" name="stop" type="AntDesign" />
-				</touchable-opacity>
+				<nb-view v-else class="nav-icon disabled">
+					<nb-icon class="icony" name="close" type="AntDesign" />
+				</nb-view>
 			</nb-view>
 		</nb-content>
 	</nb-container>
@@ -111,7 +95,7 @@
 				return min+':'+sec
 			},
 			setAudio() {
-				let audio = new Sound( this.cells.sound , Sound.MAIN_BUNDLE, (error) => {
+				let audio = new Sound( this.cells.sound, Sound.MAIN_BUNDLE, (error) => {
 					if (error) {
 						alert('failed to load the sound');
 						return;
@@ -139,7 +123,7 @@
 			},
 			home() {
 				this.stopAudio()
-				this.navigation.replace('Home')
+				this.navigation.goBack()
 			},
 			next(param) {
 				this.stopAudio()
@@ -162,7 +146,7 @@
 		color: #272727;
 	}
 	.textbook {
-		font-family: kozuka-light;
+		font-family: gotham-light;
 		font-size: 14;
 		line-height: 19;
 	}
@@ -192,7 +176,7 @@
 		margin-bottom: 10;
 	}
 	.timestamp {
-		font-family: kozuka-regular;
+		font-family: gotham-regular;
 		font-size: 22;
 		align-self: center;
 	}
@@ -207,6 +191,9 @@
 		border-radius: 55;
 		margin: 5;
 		background-color: #b98068;
+	}
+	.disabled {
+		background-color: #b0b0b0;		
 	}
 	.icony {
 		color: white;

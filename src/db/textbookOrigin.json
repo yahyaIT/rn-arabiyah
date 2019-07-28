@@ -1,0 +1,379 @@
+[
+	{
+		page: '1',
+		sound: 's01.mp3',
+		title: 'Perkenalan',
+		script: [
+			{
+				a: 'السَّلَامُ عَلَيْكُمْ',
+				i: 'Assalamualaikum'
+			},
+			{
+				a: 'وَعَلَيْكُمُ السَّلَامُ ، يَا أُسْتَاذُ',
+				i: 'Waalaikumussalam Pak Guru'
+			},
+			{
+				a: 'هَذَا أَبُوْ بَكْرٍ . هُوَ مَالِيْزِيٌّ',
+				i: 'Ini Abu Bakar. Dia orang Malaysia'
+			},
+			{
+				a: 'يَا أَبَا بَكْرٍ . هَذَا بَاسِمٌ هُوَ أَنْدُوْنِيْسِيٌّ',
+				i: 'Abu Bakar. Ini Basim, dia orang Indonesia'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا',
+				i: 'Salam kenal'
+			},
+			{
+				a: 'أَهْلًا وَسَهْلًا أَبَا بَكْرٍ',
+				i: 'Salam kenal juga Abu Bakar'
+			}
+		],
+	},
+	{
+		page: '2',
+		sound: 's02.mp3',
+		title: 'Hobi',
+		script: [
+			{
+				a: 'مَا هِوَايَتُكَ يَا زُهَيْرُ ؟',
+				i: 'Zuhair, apa hobimu?'
+			},
+			{
+				a: 'هِوَايَتِي الصَّحَافَةُ وَجَـمْعُ الطَّوَابِعِ.وَأَنْتِ ؟',
+				i: 'Hobiku jurnalistik dan filateli. Dan kamu?'
+			},
+			{
+				a: 'هِوَايَتِي الرَّسْمُ وَالتَّدْبِيْرُ الـمَنْزِلِيُّ. أَنَا مُشْتَرِكَةٌ فِي جَـمَاعَةِ التَّدْبِيْرِ الـمَنْزِلِيِّ',
+				i: 'Hobiku melukis dan tata boga. Aku bergabung dengan grup tata boga'
+			},
+			{
+				a: 'وَأَنَا مُشْتَرِكٌ فِي جَـمَاعَةِ الصَّحَافَةِ',
+				i: 'Aku (juga) bergabung dengan grup jurnalis'
+			},
+			{
+				a: 'هَلْ سَـمِعْتَ عَنْ مَعْرَضِ الـمَدْرَسَةِ ؟',
+				i: 'Apakah kamu dengar tentang pameran sekolah?'
+			},
+			{
+				a: 'نَعَمْ ، وَعِمِلْنَا صَحِيْفَةً جَـمِيْلَةً',
+				i: 'Iya, kami telah membuat koran yang bagus'
+			},
+			{
+				a: 'وَنَـحْنُ عَمِلْنَا حَلْوَى لَذِيْذَةً',
+				i: 'Dan kami telah membuat manisan yang enak'
+			}
+		],
+	},
+	{
+		page: '3',
+		sound: 's03.mp3',
+		title: 'Sekolah',
+		script: [
+			{
+				a: 'هَلْ أَنْتَ مُدَرِّسٌ ؟',
+				i: 'Apakah kamu guru?'
+			},
+			{
+				a: 'لَا ، أَنَا طَالِبٌ',
+				i: 'Bukan, aku pelajar'
+			},
+			{
+				a: 'أَيْنَ تَدْرُسُ ؟',
+				i: 'Dimana kamu sekolah?'
+			},
+			{
+				a: 'أَدْرُسُ فِي الـمَدْرَسَةِ الثَّانَوِيَّةِ',
+				i: 'Aku belajar di SMA'
+			},
+			{
+				a: 'مَاذَا تَدْرُسُ ؟',
+				i: 'Apa yang kamu pelajari?'
+			},
+			{
+				a: 'أَدْرُسُ اللُّغَةَ العَرَبِيَّةَ',
+				i: 'Aku belajar bahasa Arab'
+			},
+			{
+				a: 'هَلْ تَتَحَدَّثُ العَرَبِيَّةَ جَيِّدًا ؟',
+				i: 'Apakah kamu berbicara bahasa Arab dengan baik?'
+			},
+			{
+				a: 'نَعَمْ ، أَتَـحَدَّثُ العَرَبِيَّةَ جَيِّدًا',
+				i: 'Iya, aku berbicara bahasa Arab dengan baik'
+			},
+			{
+				a: 'لِـمَاذَا تَدْرُسُ اللُّغَةَ العَرَبِيَّةَ ؟',
+				i: 'Mengapa kamu mempelajari bahasa Arab?'
+			},
+			{
+				a: 'أَدْرُسُ العَرَبِيَّةَ لِأَفْهَمَ القُرْآنَ',
+				i: 'Aku mempelajari bahasa Arab supaya faham Al-Quran'
+			}
+		],
+	},
+	{
+		page: '4',
+		sound: 's03.mp3',
+		title: 'Keluarga',
+		script: [
+			{
+				a: 'هَذِهِ صُوْرَةُ أُسْرَتِي . اُنْظُرْ',
+				i: 'Ini foto keluargaku. Lihatlah!'
+			},
+			{
+				a: 'هَذَا وَالِدُكَ ؟',
+				i: 'Ini ayahmu?'
+			},
+			{
+				a: 'نَعَمْ',
+				i: 'Iya'
+			},
+			{
+				a: 'مَاذَا يَعْمَلُ ؟',
+				i: 'Apa pekerjaannya?'
+			},
+			{
+				a: 'هُوَ تَاجِرٌ . وَهَذِهِ أُمِّي ، وَهَذِهِ أُخْتِي',
+				i: 'Ia pedagang. Ini ibuku. Dan ini saudariku'
+			},
+			{
+				a: 'مَا اسْـمُهَا ؟',
+				i: 'Siapa namanya?'
+			},
+			{
+				a: 'سُعَادٌ . عُمْرُهَا ثَلَاثُ سَنَوَاتٍ',
+				i: "Su'ad. Umurnya tiga tahun"
+			},
+			{
+				a: 'وَمَنْ هَذَا ؟',
+				i: 'Siapa ini?'
+			},
+			{
+				a: 'هَذَا أَخِي الكَبِيْرُ . هُوَ مُهَنْدِسٌ',
+				i: 'Ini kakakku. Ia seorang insinyur'
+			},
+			{
+				a: 'وَهَذَا ؟',
+				i: 'Dan ini?'
+			},
+			{
+				a: 'هَذَا أَخِي الصَّغِيْرُ. هُوَ تِلْمِيْذٌ فِي الـمَدْرَسَةِ الاِبْتِدَائِيَّةِ',
+				i: 'Ini adikku. Ia siswa tingkat SD'
+			}
+		],
+	},
+	{
+		page: '5',
+		sound: 's0.....mp3',
+		title: 'Liburan',
+		script: [
+			{
+				a: 'هَلْ سَتَذْهَبُ فِي الرِّحْلَةِ يَوْمَ الـجُمُعَةِ ؟',
+				i: 'Apakah kamu akan pergi rekreasi hari Jumat?'
+			},
+			{
+				a: 'نَعَمْ ، وَأَنْتَ ؟',
+				i: 'Iya, dan kamu?'
+			},
+			{
+				a: 'أَنَا ذِاهِبٌ أَيْضًا',
+				i: 'Aku akan pergi juga'
+			},
+			{
+				a: 'كَيْفَ سَتَذْهَبُ ؟',
+				i: 'Dengan apa kamu pergi?'
+			},
+			{
+				a: 'سَنَذْهَبُ بِسَيَّارَةِ الـمَدْرَسَةِ . مَاذَا سَتُحْضِرُ مَعَكَ ؟',
+				i: 'Kita akan pergi dengan mobil sekolah. Apa yang akan kamu bawa?'
+			},
+			{
+				a: 'سَأُحْضِرُ الطَّعَامَ وَالفَاكِهَةَ وَالـحَلْوَى',
+				i: 'Aku akan membawa makanan, buah-buahan, dan manisan'
+			},
+			{
+				a: 'وَأَنَا سَأُحْضِرُ الكُرَةَ وَالـمَضَارِبَ',
+				i: 'Dan aku akan membawa bola dan raket'
+			},
+			{
+				a: 'سَنُشَاهِدُ الـحَيَوَانَاتِ ثُـمَّ نَلْعَبُ مِعَ الصَّفِّ الثَّانِي',
+				i: 'Kita akan melihat-lihat binatang, kemudian bertanding dengan kelas 2'
+			},
+			{
+				a: 'إِنْ شَاءَ اللهُ نَكْسِبُ',
+				i: 'Insyaallah kita akan menang'
+			}
+		]		
+	},
+	{
+		page: '6',
+		sound: 's0.....mp3',
+		title: 'Profesi',
+		script: [
+			{
+				a: 'هَذِهِ دَرَّاجَةٌ جَمِيْلَةٌ ، هَلْ هِيَ دَرَّاجَتُكَ ؟',
+				i: 'Ini sepeda yang bagus, apakah ini sepedamu?'
+			},
+			{
+				a: 'لَا هَذِهِ دَرَّاجَةُ وَالِدِي ، هُوَ اليَوْمَ فِي عُطْلَةٍ',
+				i: 'Bukan, ini sepeda ayahku, hari ini dia lagi libur'
+			},
+			{
+				a: 'أَيْنَ يَعْمَلُ وَالِدُكَ ؟',
+				i: 'Dimana ayahmu bekerja?'
+			},
+			{
+				a: 'وَالِدِي عَامِلٌ فِي مَصْنَعِ الدَّرَّاجَاتِ',
+				i: 'Ayahku karyawan pabrik sepeda'
+			},
+			{
+				a: 'وَالِدِي عَامِلٌ فِي مَصْنَعِ السَّيَّارَاتِ',
+				i: 'Ayahku karyawan pabrik mobil'
+			},
+			{
+				a: 'طَبْعًا وَالِدُكَ يَـمْلِكُ سَيَّارَةً',
+				i: 'Ayahmu pasti memiliki mobil'
+			},
+			{
+				a: 'لِلْأَسَفِ هُوَ لَا يَـمْلِكُ سَيَّارَةً ، وَأَنْتَ تَعْرِفُ السَّبَبَ',
+				i: 'Sayangnya dia tidak memiliki mobil, dan kamu tahu penyebabnya'
+			},
+			{
+				a: 'مَا السَّبَبُ ؟',
+				i: 'Apa penyebabnya?'
+			},
+			{
+				a: 'لسَّبَبُ هُوَ السَّيَّارَةُ غَالِيَةٌ جِدًّا',
+				i: 'Penyebabnya adalah harga mobil yang terlalu mahal'
+			},
+			{
+				a: 'وَكَيْفَ يَذْهَبُ وَالِدُكَ إِلَى الـمَصْنَعِ ؟',
+				i: 'Lalu bagaimana ayahmu pergi ke pabrik?'
+			},
+			{
+				a: 'هُوَ يَذْهَبُ بِـحَافِلَةِ الـمَصْنَعِ',
+				i: 'Dia pergi naik bus milik pabrik'
+			}
+		]		
+	},
+	{
+		page: '7',
+		sound: 's0.....mp3',
+		title: 'Jam',
+		script: [
+			{
+				a: 'لِـمَاذَا تُسْرِعُ يَا زَيْدُ ؟',
+				i: 'Mengapa kamu terburu-buru ya Zaid?'
+			},
+			{
+				a: 'سَأَذْهَبُ إِلَى الـمَطَارِ . سَتُغَادِرُ الطَّائِرَةُ السَّاعَةَ الوَاحِدَةَ ظُهْرًا',
+				i: 'Aku akan pergi ke bandara. Pesawatku akan terbang jam satu siang'
+			},
+			{
+				a: 'إِلَى أَيْنَ سَتُسَافِرُ ؟',
+				i: 'Kemana kamu hendak pergi?'
+			},
+			{
+				a: 'سَأُسَافِرُ إِلَى العِرَاقِ لِزِيَارَةِ جَدِّي هُنَاكَ',
+				i: 'Aku akan pergi ke Irak untuk mengunjungi kakekku di sana'
+			},
+			{
+				a: 'مَعَ السَّلَامَةِ',
+				i: 'Selamat jalan'
+			},
+			{
+				a: 'مَعَ السَّلَامَةِ',
+				i: 'Selamat jalan'
+			}
+		]		
+	},
+	{
+		page: '8',
+		sound: 's0.....mp3',
+		title: '',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+	{
+		page: 'xxxx',
+		sound: 's0.....mp3',
+		title: 'aaaa',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+	{
+		page: 'xxxx',
+		sound: 's0.....mp3',
+		title: 'aaaa',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+	{
+		page: 'xxxx',
+		sound: 's0.....mp3',
+		title: 'aaaa',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+	{
+		page: 'xxxx',
+		sound: 's0.....mp3',
+		title: 'aaaa',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+	{
+		page: 'xxxx',
+		sound: 's0.....mp3',
+		title: 'aaaa',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+	{
+		page: 'xxxx',
+		sound: 's0.....mp3',
+		title: 'aaaa',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+	{
+		page: 'xxxx',
+		sound: 's0.....mp3',
+		title: 'aaaa',
+		script: [
+			{
+				a: '',
+				i: ''
+			}
+		]		
+	},
+]

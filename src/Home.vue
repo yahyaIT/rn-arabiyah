@@ -1,6 +1,6 @@
 <template>
 	<nb-container class="container">
-		<nb-content padder :style="{ alignItems: center, justifyContent: center }">
+		<nb-view padder class="container">
 			<nb-icon name="book" type="AntDesign" class="big-icon"/>
 			<nb-text class="title">Arabiyyah App</nb-text>
 			<nb-text class="tagline">'Al-Arobiyyah bayna Yadaik'</nb-text>
@@ -43,7 +43,6 @@
 	.big-icon {
 		font-size: 110;
 		color: #b98068;
-		margin-top: 72;
 		align-self: center;
 	}
 	.button-regular {

@@ -3,7 +3,7 @@
 		<header :nav="navigation">Video</header>
 			<nb-view :style="{ flex: 1 }">
 				<web-view
-					:source="{uri: 'https://www.youtube.com/channel/UCo4LK8NYLkjXovZyjAgp75g'}"
+					:source="{uri: 'https://pondokinformatika.com/video-arab'}"
 					:style="{ height: '100%', width: '100%' }"
 				/>
 			</nb-view>

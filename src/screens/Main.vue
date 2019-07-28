@@ -19,7 +19,7 @@
 
 <script>
 	import Header from '../components/Header';
-	import { Toast } from 'native-base';
+	import NetInfo from '@react-native-community/netinfo';
 
 	export default {
 		components: {
@@ -28,19 +28,26 @@
 		props: {
 			navigation: Object,
 		},
+		data: {
+			isConnected: ''
+		},
 		methods: {
 			textSection() {
 				this.navigation.navigate('PageList')
 			},
 			videoSection() {
-				// Toast.show({
-				// 	text: "Fitur ini membutuhkan akses internet!",
-				// 	buttonText: "Oke",
-				// 	type: "warning"
-				// });
-				alert('Fitur ini membutuhkan akses internet!')
 				this.navigation.navigate('VideoSection')
+				alert('This feature required an active internet connection!')
 			},
+			handleConnectivityChange(isConnected) {
+				alert(JSON.stringify(isConnected));
+			}
+		},
+		mounted() {
+			NetInfo.isConnected.addEventListener('connectionChange', (isc) => this.handleConnectivityChange(isc));
+		},
+		destroyed() {
+			NetInfo.isConnected.removeEventListener('connectionChange', (isc) => this.handleConnectivityChange(isc));
 		}
 	}
 </script>
