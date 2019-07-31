@@ -1,6 +1,16 @@
 <template>
 	<nb-container>
-		<header :nav="navigation">{{ cells.title }}</header>
+		<nb-header :style="{ backgroundColor: '#fff' }">
+			<nb-left :style="{ flex: 1 }">
+				<nb-button transparent :on-press="() => home()">
+					<nb-icon :style="{ color: '#b98068' }" name="left" type="AntDesign"/>
+				</nb-button>
+			</nb-left>
+			<nb-body :style="{ alignItems: center }">
+				<nb-title class="this-header"><slot></slot></nb-title>
+			</nb-body>
+			<nb-right :style="{ flex: 1 }"/>
+		</nb-header>
 		<nb-content :style="{ backgroundColor: '#ffe6d6', padding: 11 }">
 			<nb-text class="audio-text">{{ cells.title }}</nb-text>
 			<nb-view class="bg-notes">
@@ -44,14 +54,11 @@
 </template>
 
 <script>
-	import Header from '../../components/Header';
+	import { BackHandler } from 'react-native';
 	import Sound from 'react-native-sound';
 	import textbook from '../../db/textbook';
 
 	export default {
-		components: {
-			Header,
-		},
 		props: {
 			navigation: Object,
 		},
@@ -132,11 +139,18 @@
 		},
 		created() {
 			this.setAudio();
+		},
+		mounted() {
+			BackHandler.addEventListener('hardwareBackPress', () => {this.home()});
 		}
 	}
 </script>
 
 <style>
+	.this-header {
+		color: #b98068;
+		font-family: gotham-regular;
+	}
 	.audio-text {
 		font-family: gotham-regular;
 		align-self: center;

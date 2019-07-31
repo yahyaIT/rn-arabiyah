@@ -1,7 +1,7 @@
 [
 	{
 		page: '1',
-		sound: 's01.ogg',
+		sound: 's01.mp3',
 		title: 'Perkenalan I',
 		aside: [
 			{
@@ -66,7 +66,7 @@
 	},
 	{
 		page: '2',
-		sound: 's03.ogg',
+		sound: 's03.mp3',
 		title: 'Perkenalan II',
 		aside: [
 			{
@@ -139,7 +139,7 @@
 	},
 	{
 		page: '3',
-		sound: 's05.ogg',
+		sound: 's05.mp3',
 		title: 'Perkenalan III',
 		aside: [
 			{
@@ -212,7 +212,7 @@
 	},
 	{
 		page: '4',
-		sound: 's07.ogg',
+		sound: 's07.mp3',
 		title: 'Keluarga I',
 		aside: [
 			{
@@ -267,7 +267,7 @@
 	},
 	{
 		page: '5',
-		sound: 's08.ogg',
+		sound: 's08.mp3',
 		title: 'Keluarga II',
 		aside: [
 			{
@@ -342,7 +342,7 @@
 	},
 	{
 		page: '6',
-		sound: 's09.ogg',
+		sound: 's09.mp3',
 		title: 'Adzan Subuh',
 		aside: [
 			{
@@ -401,7 +401,7 @@
 	},
 	{
 		page: '7',
-		sound: 's10.ogg',
+		sound: 's10.mp3',
 		title: 'Tempat Tinggal',
 		aside: [
 			{
@@ -452,7 +452,7 @@
 	},
 	{
 		page: '8',
-		sound: 's11.ogg',
+		sound: 's11.mp3',
 		title: 'Apartemen',
 		aside: [
 			{
@@ -503,7 +503,7 @@
 	},
 	{
 		page: '9',
-		sound: 's12.ogg',
+		sound: 's12.mp3',
 		title: 'Perabot Rumah',
 		aside: [
 			{
@@ -562,7 +562,7 @@
 	},
 	{
 		page: '10',
-		sound: 's13.ogg',
+		sound: 's13.mp3',
 		title: 'Pagi Hari',
 		aside: [
 			{
@@ -617,7 +617,7 @@
 	},
 	{
 		page: '11',
-		sound: 's14.ogg',
+		sound: 's14.mp3',
 		title: 'Libur',
 		aside: [
 			{
@@ -672,7 +672,7 @@
 	},
 	{
 		page: '12',
-		sound: 's15.ogg',
+		sound: 's15.mp3',
 		title: 'Pagi di Hari Libur',
 		aside: [
 			{
@@ -715,7 +715,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's16.ogg',
+		sound: 's16.mp3',
 		title: 'Makanan Pokok',
 		aside: [
 			{
@@ -778,7 +778,7 @@
 	},
 	{
 		page: '15',
-		sound: 's17.ogg',
+		sound: 's17.mp3',
 		title: 'Makanan',
 		aside: [
 			{
@@ -837,7 +837,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's18.ogg',
+		sound: 's18.mp3',
 		title: 'Makan Siang',
 		aside: [
 			{
@@ -892,7 +892,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's19.ogg',
+		sound: 's19.mp3',
 		title: 'Shalat Lima Waktu',
 		aside: [
 			{
@@ -947,7 +947,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's20.ogg',
+		sound: 's20.mp3',
 		title: 'Bepergian',
 		aside: [
 			{
@@ -994,7 +994,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's21.ogg',
+		sound: 's21.mp3',
 		title: 'Adzan Ashar',
 		aside: [
 			{
@@ -1045,7 +1045,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's22.ogg',
+		sound: 's22.mp3',
 		title: 'Jadwal Pelajaran',
 		aside: [
 			{
@@ -1104,7 +1104,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's23.ogg',
+		sound: 's23.mp3',
 		title: 'Mahasiswi',
 		aside: [
 			{
@@ -1155,7 +1155,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's24.ogg',
+		sound: 's24.mp3',
 		title: 'Sekolah',
 		aside: [
 			{
@@ -1218,7 +1218,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's25.ogg',
+		sound: 's25.mp3',
 		title: 'Pekerjaan',
 		aside: [
 			{
@@ -1269,7 +1269,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's26.ogg',
+		sound: 's26.mp3',
 		title: 'Cita-cita',
 		aside: [
 			{
@@ -1304,7 +1304,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's27.ogg',
+		sound: 's27.mp3',
 		title: 'Guru Wanita',
 		aside: [
 			{
@@ -1359,7 +1359,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's28.ogg',
+		sound: 's28.mp3',
 		title: 'Kamus',
 		aside: [
 			{
@@ -1422,7 +1422,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's29.ogg',
+		sound: 's29.mp3',
 		title: 'Di Pasar',
 		aside: [
 			{
@@ -1469,7 +1469,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's30.ogg',
+		sound: 's30.mp3',
 		title: 'Pakaian',
 		aside: [
 			{
@@ -1532,7 +1532,7 @@
 	},
 	{
 		page: 'xxx',
-		sound: 's31.ogg',
+		sound: 's31.mp3',
 		title: 'Cuaca',
 		aside: [
 			{

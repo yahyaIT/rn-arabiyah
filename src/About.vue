@@ -9,6 +9,9 @@
 
 					Bertujuan untuk memudahkan pengajaran Bahasa Arab untuk orang asing dengan memanfaatkan teknologi modern demi kemajuan (pengajaran) Bahasa Arab.
 				</nb-text>
+				<nb-text class="text bold">
+					
+				</nb-text>
 			</nb-view>
 		</nb-content>
 	</nb-container>

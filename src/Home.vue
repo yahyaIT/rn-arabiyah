@@ -1,7 +1,10 @@
 <template>
 	<nb-container class="container">
 		<nb-view padder class="container">
-			<nb-icon name="book" type="AntDesign" class="big-icon"/>
+			<image
+				class="big-icon"
+				:source="require('./app.png')"
+			/>
 			<nb-text class="title">Arabiyyah App</nb-text>
 			<nb-text class="tagline">'Al-Arobiyyah bayna Yadaik'</nb-text>
 			<touchable-opacity :on-press="menu">
@@ -30,7 +33,7 @@
 			start() {
 				this.navigation.navigate('About')
 			}
-		}
+		},
 	}
 </script>
 
@@ -41,7 +44,8 @@
 		align-items: center;
 	}
 	.big-icon {
-		font-size: 110;
+		height: 125; 
+		max-width: 125;
 		color: #b98068;
 		align-self: center;
 	}
@@ -71,7 +75,7 @@
 		align-self: center;
 		font-family: dmserif-regular;
 		font-size: 45;
-		margin-top: 17;
+		margin-top: 2;
 	}
 	.tagline {
 		align-self: center;

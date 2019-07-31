@@ -19,7 +19,6 @@
 
 <script>
 	import Header from '../components/Header';
-	import NetInfo from '@react-native-community/netinfo';
 
 	export default {
 		components: {
@@ -37,18 +36,11 @@
 			},
 			videoSection() {
 				this.navigation.navigate('VideoSection')
-				alert('This feature required an active internet connection!')
 			},
 			handleConnectivityChange(isConnected) {
 				alert(JSON.stringify(isConnected));
-			}
+			},
 		},
-		mounted() {
-			NetInfo.isConnected.addEventListener('connectionChange', (isc) => this.handleConnectivityChange(isc));
-		},
-		destroyed() {
-			NetInfo.isConnected.removeEventListener('connectionChange', (isc) => this.handleConnectivityChange(isc));
-		}
 	}
 </script>
 
